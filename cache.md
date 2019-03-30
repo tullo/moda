@@ -23,6 +23,6 @@ go build ./...
 go test ./...
 ```
 
-### alternative
+### Alternative
 
 Nuke `$GOPATH/pkg/mod/cache`
