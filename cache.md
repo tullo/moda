@@ -22,3 +22,7 @@ go mod tidy
 go build ./...
 go test ./...
 ```
+
+### alternative
+
+Nuke `$GOPATH/pkg/mod/cache`
