@@ -4,7 +4,7 @@ An attempt to use the migrated v2 code of module moda in some other code failed.
 
 ## checksum mismatch
 
-```console
+```bash
 go get -u -v ./...
 go: downloading github.com/tullo/moda/v2 v2.0.0
 verifying github.com/tullo/moda/v2@v2.0.0: checksum mismatch
@@ -14,7 +14,7 @@ verifying github.com/tullo/moda/v2@v2.0.0: checksum mismatch
 
 ## Solution: go cache cleanup
 
-```console
+```bash
 rm go.sum
 go clean -modcache
 go get -u -v ./...
